@@ -69,7 +69,7 @@ header {
 }
 .top-middle {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
     border-bottom: thin dashed;
     padding: 2%;
     margin: 2%;
@@ -183,13 +183,19 @@ p {
     background-color: crimson
 }
 #forest {
-    background-color: darkorchid;
+    background-color: forestgreen;
 }
 #hotpink {
+    background-color: hotpink;
+}
+#indigo {
     background-color: indigo;
 }
+#darkorchid {
+    background-color: darkorchid;
+}
 #dodgerblue {
-    background-color: dodgerblue
+    background-color: dodgerblue;
 }
 .bottom-content {
     display: flex;
