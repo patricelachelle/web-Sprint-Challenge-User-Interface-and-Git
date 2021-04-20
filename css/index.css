@@ -71,15 +71,22 @@ header {
     display: flex;
     flex-direction: row;   
     border-bottom: thin dashed;
+    
     padding: 2%;
     margin: 2%; 
-}
+    margin-left: -30px;
+    margin-right: auto; 
+    
+}   
 .bottom-middle {
     display: flex;
     flex-direction: row;
+    
     padding: 2%;
     margin: 2%;
     border-bottom: thin dashed;
+    margin-left: -30px;
+    margin-right: auto;
 }
 .logo img {
     width: 100%;
