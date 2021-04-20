@@ -72,18 +72,14 @@ header {
     flex-direction: row;   
     border-bottom: thin dashed;
     padding: 2%;
-    margin: 2%;
+    margin: 2%; 
 }
 .bottom-middle {
     display: flex;
     flex-direction: row;
-    border-bottom: thin dashed;
     padding: 2%;
-    margin: 2%;  
-}
-.item {
-    width: 50%;
-    text-align: center;        
+    margin: 2%;
+    border-bottom: thin dashed;
 }
 .logo img {
     width: 100%;
@@ -117,20 +113,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.aboutImageContainer {
-    display: column;   
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
 .button {
     border-radius: 15px;
     background: transparent;
     padding: 15px;
     padding-bottom: 30px;
+    margin: 5px;
     width: 150px;
     height: 10px;
-    font-size: 18px;   
+    font-size: 18px;
+    margin-right: 350px;
 }
 .top-content {
     display: flex;
@@ -205,11 +197,11 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 footer {
+    margin-top: 5%;
     width: 100%;   
     margin-left: -20%;
 }
